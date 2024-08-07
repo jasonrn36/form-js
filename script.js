@@ -30,6 +30,7 @@ form.addEventListener('submit', function(e) {
 
     }else{ 
         alert("o nome não está completo");
+        nomeBeneficiario.value = ' ';
     }
 
 })

@@ -17,8 +17,7 @@
     margin-top: 8px;
 }
 
-.valores_String label,
-.valores_String input {
+#Formulario input {
     display: block;
     align-items: center;
     width: 320px;
@@ -27,5 +26,15 @@
 
     /* Área de font, tamanho, cor, espessura*/
     font-size: 1.2rem;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Formulario label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    color: #f0f0f0;
+}
+
+#Formulario button {
+    padding: 8px;
 }
